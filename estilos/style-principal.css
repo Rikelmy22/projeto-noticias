@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: #ffff url(../imagens/fundo.png) repeat-x;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#container {
+   width: 750px;
+   margin: 0px auto;
+}
+
+/* Início da estilização do cabeçalho */
+
+#container > #cabecalho {
+    background: url(../imagens/detalhe-topo.png) no-repeat top right;
+    height: 230px;
+}
+
+/* Fim da estilização do cabeçalho */
+
+#container > #cabecalho > .logo {
+    margin: 20px;
+    height: 66px;
+    width: 152px;
+    background: url(../imagens/logo.png) no-repeat top left;
+    text-indent: -3000px;
+}
+
+/* ***Usamos o text indent negativo para esconder o texto do navegador sem usar o display none pois pode ocorrer discordancia nos buscadores dos browsers em relação ao ocutamento de elementos de texto.***
+*/
+
+/* Início da estilizaçãp do menu */
+
+#container > #cabecalho > #horizontal > ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+
+#container > #cabecalho > #horizontal > ul > li {
+    float: left;
+    margin: 1.08em 0em;
+}
+
+#container > #cabecalho > #horizontal > ul > li > a:link, a:visited {
+    text-decoration: none;
+    color: #ffff;
+    padding: 0.6em 1.1em;
+    font-size: 1em;
+    display: block;
+    font-weight: bold;
+    background: url(../imagens/divisor.png) no-repeat left center;
+    background-color: #b10333;
+}
+
+#container > #cabecalho > #horizontal > ul > li > a#none {
+    background-image: none;
+}
+
+#container > #cabecalho > #horizontal > ul > li > a:hover {
+    color: #000;
+    background-color: #69001ed2;
+}
+
+
+#home > #container > #cabecalho > #horizontal > #navegacao > #selecionado > .home {
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+}
+/* Fim da estilização do menu */
