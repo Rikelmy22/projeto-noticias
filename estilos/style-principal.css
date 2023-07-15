@@ -58,21 +58,22 @@ body {
     font-size: 1em;
     display: block;
     font-weight: bold;
-    background: url(../imagens/divisor.png) no-repeat left center;
     background-color: #b10333;
-}
-
-#container > #cabecalho > #horizontal > ul > li > a#none {
-    background-image: none;
 }
 
 #container > #cabecalho > #horizontal > ul > li > a:hover {
     color: #000;
-    background-color: #69001ed2;
+    background-color: #69001e5e;
 }
 
 
-#home > #container > #cabecalho > #horizontal > #navegacao > #selecionado > .home {
+#home > #container > #cabecalho > #horizontal > #navegacao > .selecionado > .home,
+#brasil > #container > #cabecalho > #horizontal > #navegacao > .selecionado > .brasil,
+#internacional > #container > #cabecalho > #horizontal > #navegacao > .selecionado > .internacional, 
+#economia > #container > #cabecalho > #horizontal > #navegacao > .selecionado > .economia,
+#saude > #container > #cabecalho > #horizontal > #navegacao > .selecionado > .saude, 
+#ciencia > #container > #cabecalho > #horizontal > #navegacao > .selecionado > .ciencia, 
+#fotos > #container > #cabecalho > #horizontal > #navegacao > .selecionado > .fotos {
     color: #fff;
     background: #de003e;
     cursor: text;
