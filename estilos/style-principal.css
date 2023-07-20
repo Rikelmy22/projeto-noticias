@@ -7,7 +7,7 @@
 
 body {
     height: 96vh;
-    width: 90vw;
+    width: 96vw;
     background: #ffff url(../imagens/fundo.png) repeat-x;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.1em;
@@ -28,9 +28,9 @@ img {
 }
 
 #container {
-   width: 750px;
+   width: 850px;
    min-width: 500px;
-   max-width: 750px;
+   max-width: 820px;
    margin: 0px auto 10px auto;
 }
 
@@ -65,7 +65,6 @@ img {
 
 #container > #cabecalho > #horizontal > ul > li {
     float: left;
-    margin: 1.08em 0em;
 }
 
 #container > #cabecalho > #horizontal > ul > li > a:link, a:visited {
@@ -82,7 +81,6 @@ img {
     color: #000;
     background-color: #99032d;
 }
-
 
 .home > #container > #cabecalho > #horizontal > #menu > .selecionado > .home,
 .brasil > #container > #cabecalho > #horizontal > #menu > .selecionado > .brasil,
@@ -104,7 +102,7 @@ img {
 
 #container > #conteudo > #primaria > #navegacao-vertical {
     width: 180px;
-    margin: 0px 0px 20px -464px;
+    margin: 0px 0px 20px -490px;
     float: left;
 }
 
@@ -133,7 +131,7 @@ img {
 
 #tres-colunas > #container > #conteudo > #central {
     width: 270px;
-    margin: 0px 0px 20px 195px;
+    margin: 0px 0px 20px 220px;
     float: left;
 }
 
