@@ -206,35 +206,12 @@ img {
     cursor: pointer;
 }
 
-#container > #conteudo > #central > #sub-conteudos > .sub-titulo {
-    margin: 20px 0px;
-}
-
-#container > #conteudo > #central > #sub-conteudos > .mundial {
-    float: left;
-}
-
-#container > #conteudo > #central > #sub-conteudos > .mundial > .mundo {
-    width: 50%;
-    margin: 10px auto;
-}
-
-#container > #conteudo > #central > #sub-conteudos > .mundial > .texto {
-    width: 50%;
-    float: right;
-    font-size: 0.8em;
-    margin: 10px auto;
-}
-
-#container > #conteudo > #central > #sub-conteudos > .mundial > .texto > .quarta-hierarquia {
-    color: #294c71;
-}
-
 #container > #conteudo > #secundaria {
     width: 270px;
     margin: 0px 0px 20px 0px;
     float: right;
 }
+
 
 
 #container > #conteudo > #secundaria > #sub-conteudos > .sub-titulo {
