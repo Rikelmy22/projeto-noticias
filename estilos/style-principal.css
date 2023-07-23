@@ -131,6 +131,7 @@ ul {
 #tres-colunas > #container > #conteudo > #primaria > #formulario {
     float: left;
     margin-top: -73px;
+    padding-bottom: 1em !important;
 }
 
 #tres-colunas > #container > #conteudo > #primaria > #formulario > form > #email {
@@ -231,6 +232,10 @@ ul {
     margin: 5px 0px;
 }
 
+.lista-noticias > li > a {
+    text-decoration: none;
+}
+
 .lista-noticias > li > a > img {
     float: left;
  }
@@ -253,7 +258,9 @@ ul {
     color: #000000a9;
     font-weight: bolder;
     transform: translateX(10px);
- }
+    text-decoration: none;
+}
+
 /*Início da "terceira coluna"*/
 #container > #conteudo > #secundaria {
     width: 270px;
@@ -283,18 +290,42 @@ ul {
     float: right;
 }
 
-#container > #conteudo > #secundaria > #sub-conteudos > .sub-titulo {
-    margin: 20px 0px;
+
+.lista-noticias > li {
+    padding: 2px;
+    height: 65px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 5px 0px;
 }
 
-#container > #conteudo > #secundaria > #sub-conteudos > #lista-noticias {
-    margin: 0px;
-    padding: 0px;
-    list-style-type: none;
-    padding: 2px;
-    border-bottom: 1px solid #ccc;
-    height: 65px;
-    color: #000;
+.lista-noticias > li > a {
+    text-decoration: none;
+}
+
+.lista-noticias > li > a > img {
+    float: left;
+ }
+
+.lista-noticias > li > a > h3 {
+    text-decoration: none;
+    font-size: 0.7em;
+    color: #294c71;
+    text-indent: 14px;
+    margin: 2.5px 0px;
+    text-transform: uppercase;
+}
+
+.lista-noticias > li > a > h3:hover {
+    text-decoration: underline;
+}
+
+.lista-noticias > li > a > p {
+    font-size: 0.7em;
+    color: #000000a9;
+    font-weight: bolder;
+    transform: translateX(10px);
+    text-decoration: none;
 }
 /*Fim da "terceira" coluna*/
 /* *** Início ds edtilização do rodape *** */
