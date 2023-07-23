@@ -56,22 +56,47 @@
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             </p>
             <a href="#">Leia mais!</a>
-        </section>
-        <section id="secundaria">
-            <h2 class="sub-titulo">
-                Destaque
-            </h2>
-            <h3>
-                Nova legislação
-            </h3>
-            <div id="imagem">
-                <img src="imagens/taxi.jpg" alt="imagem do taxi">
-            </div>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            </p>
-            <a href="#">Leia mais!</a>
-             
+            <article class="caixa">
+                <h2 class="sub-titulo">Mundo</h2>
+                    <ul class="lista-noticias">
+                        <li>
+                            <a href="#">
+                                <img src="imagens/cidade.jpg" alt="imagens de prédios" width="80px">
+                                <h3>Crise Européia</h3>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="imagens/cidade.jpg" alt="imagens de prédios" width="80px">
+                                <h3>USA tentam novo acordo</h3>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="imagens/cidade.jpg" alt="imagens de prédios" width="80px">
+                                <h3>Guerra na Síria</h3>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="imagens/cidade.jpg" alt="imagens de prédios" width="80px">
+                                <h3>Rússia aprova lei</h3>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+            </article>
         </section>
        <section id="primaria">
         <nav id="navegacao-vertical">
@@ -99,7 +124,20 @@
                 </li>
             </ul>
         </nav>
-      
+        <div id="formulario">
+            <h2 class="sub-titulo">
+                News
+            </h2>
+            <form action="destinatario.php" method="post" autocomplete="on">
+                <div id="email">
+                    <label for="i-email">E-mail:</label>
+                    <input type="email" name="ie-mail" id="ie-mail" placeholder="Seu e-mail" required>
+                </div>
+                <div id="enviar">
+                    <input type="submit" value="Cadastrar">
+                </div>
+            </form>
+        </div>
        </section>
    </main>
 </div><!--Fim do container de conteúdos-->
