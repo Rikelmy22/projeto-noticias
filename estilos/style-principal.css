@@ -130,12 +130,16 @@ ul {
 
 #tres-colunas > #container > #conteudo > #primaria > #formulario {
     float: left;
-    margin-top: 350px;
-
+    margin-top: -73px;
 }
 
 #tres-colunas > #container > #conteudo > #primaria > #formulario > form > #email {
     margin: 20px 0px;
+    padding-left: 1.1em;
+}
+
+#tres-colunas > #container > #conteudo > #primaria > #formulario > form > #enviar {
+    padding-left: 1.1em;
 }
 
 #tres-colunas > #container > #conteudo > #primaria > #formulario > form > #enviar > input[type=submit] {
@@ -143,10 +147,11 @@ ul {
     height: 40px;
     padding: 8px 12px;
     color: #fff;
+    border-radius: 3px;
     border: 1px solid #dedede;
 }
 /*Fim da primeira coluna*/
-/*Início da "segunda" central*/
+/*Início da "segunda" coluna/central*/
 #tres-colunas > #container > #conteudo > #central {
     width: 270px;
     margin: 0px 0px 20px 220px;
@@ -291,7 +296,7 @@ ul {
     height: 65px;
     color: #000;
 }
-/*Fim da "terceira* coluna/
+/*Fim da "terceira" coluna*/
 /* *** Início ds edtilização do rodape *** */
 
 #caixa-rodape {
