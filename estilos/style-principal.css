@@ -130,7 +130,7 @@ ul {
 
 #tres-colunas > #container > #conteudo > #primaria > #formulario {
     float: left;
-    margin-top: -73px;
+    margin-top: -70px;
     padding-bottom: 1em !important;
 }
 
@@ -231,7 +231,7 @@ ul {
     margin: 10px 0px;
 }
 
-.caixa {
+#uma-coluna > #container > #conteudo > #central > .caixa {
     width: 400px;
 }
 
