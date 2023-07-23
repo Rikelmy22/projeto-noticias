@@ -117,12 +117,10 @@ ul {
     text-decoration: none;
     color: #000;
     font-weight: bold;
-    width: 107% !important;
 }
 
 #container > #conteudo > #primaria > #navegacao-vertical > ul > li > a:hover {
     color: #686868;
-    background-color: #fff;
 }
 
 #container > #conteudo  > #primaria > #navegacao-vertical > ul > li > a:hover::before {
@@ -131,8 +129,9 @@ ul {
 }
 
 #tres-colunas > #container > #conteudo > #primaria > #formulario {
+    padding-top: 20px;
     float: left;
-    margin-top: -110px !important;
+    margin-top: -120px !important;
 }
 
 #tres-colunas > #container > #conteudo > #primaria > #formulario > form > #email {
