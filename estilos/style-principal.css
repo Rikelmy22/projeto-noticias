@@ -193,7 +193,7 @@ ul {
 
 #duas-colunas > #container > #conteudo > #primaria > #formulario {
     float: left;
-    margin-top: -70px;
+    margin-top: -65px;
     padding-bottom: 1em !important;
 }
 
@@ -252,6 +252,7 @@ ul {
 
 #container > #conteudo > #central > .caixa {
     width: 270px;
+    margin-top: 2em;
 }
 
 .caixa > .sub-titulo {
@@ -326,6 +327,7 @@ ul {
 
 #container > #conteudo > #secundaria > .caixa {
     width: 270px;
+    margin-top: 3em;
 }
 
 .lista-noticias > li {
